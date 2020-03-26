@@ -6,31 +6,40 @@ class App extends Component {
     return (
 
 <View style={{ alignItems: "center" }}>
-  <TextInput
-    style={{ height: 40, borderColor: "neon orange", borderWidth: 1 }}
-    onChangeText={function() {}}
-    value={""}
-    placeholder = "search sport"
-    />
+
     <Text
       style={{
         textAlign: "center",
         fontWeight: "bold",
         fontSize: "60px"
       }}>
-      my future
+      MY FUTURE
       </Text>
     <Text
     style={{
         textAlign: "center",
-        fontSize: "30px",
-        color: "#4169e1"
-
+        fontSize: "40px",
+        color:"black"
 }}>
-      get to the next levels: see other athletes schedules
+      Get to the Next Level: See Other Athletes Schedules
       {'\n'}  </Text>
+
+
+      <View
+        style = {{flexDirection:"row" ,justifyContent:"space-around",}}>
+        <Button onPress={() => {}} title="ice hockey" />
+        <Text>  </Text>
+        <Button onPress={() => {}} title="football" />
+        <Text>  </Text>
+        <Button onPress={() => {}} title="lacrosse" />
+        <Text>  </Text>
+        <Button onPress={() => {}} title="basketball" />
+        <Text>  </Text>
+        <Button onPress={() => {}} title="baseball" />
+      </View>
+
     <View
-      style = {{flexDirection:"row" ,justifyContent:"space-around",}}>
+      style = {{flexDirection:"row" ,justifyContent:"space-around", paddingTop: "40px"}}>
       <Button onPress={() => {}} title="High School" />
       <Text>  </Text>
       <Button onPress={() => {}} title="College" />
@@ -38,18 +47,7 @@ class App extends Component {
       <Button onPress={() => {}} title="Pro" />
     </View>
 
-    <View
-      style = {{flexDirection:"row" ,justifyContent:"space-around",}}>
-      <Button onPress={() => {}} title="ice hockey" />
-      <Text>  </Text>
-      <Button onPress={() => {}} title="football" />
-      <Text>  </Text>
-      <Button onPress={() => {}} title="lacrosse" />
-      <Text>  </Text>
-      <Button onPress={() => {}} title="basketball" />
-      <Text>  </Text>
-      <Button onPress={() => {}} title="baseball" />
-    </View>
+
   </View>
 );
 }
