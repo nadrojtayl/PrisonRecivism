@@ -23,9 +23,7 @@ const WebLink = props => (
 );
 
 class FrontPage extends Component {
-
   render() {
-    var that = this;
     return (
       <View style={styles.app}>
         <View style={styles.header}>
@@ -54,7 +52,7 @@ class FrontPage extends Component {
           </WebLink>
           .
         </Text>
-         <Button onPress={() => {that.props.parent.setState({destination:"SecondPage"})}} title="Example button" />
+        <Button onPress={() => {}} title="Example button" />
       </View>
     );
   }
@@ -64,7 +62,7 @@ const styles = StyleSheet.create({
   app: {
     marginHorizontal: "auto",
     maxWidth: 500,
-    backgroundColor:'red',
+    backgroundColor:'blue',
     height:"100%"
   },
   logo: {
