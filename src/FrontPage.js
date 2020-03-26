@@ -22,7 +22,7 @@ const WebLink = props => (
   />
 );
 
-class App extends Component {
+class FrontPage extends Component {
   render() {
     return (
       <View style={styles.app}>
@@ -62,7 +62,8 @@ const styles = StyleSheet.create({
   app: {
     marginHorizontal: "auto",
     maxWidth: 500,
-    backgroundColor:'red'
+    backgroundColor:'red',
+    height:"100%"
   },
   logo: {
     height: 80
@@ -90,4 +91,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App;
+export default FrontPage;
