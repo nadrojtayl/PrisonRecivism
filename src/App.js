@@ -26,6 +26,7 @@ class App extends Component {
   }
   render() {
     var that = this;
+    console.log("here")
 
     if(that.state.destination === "FrontPage"){
       return (<View style = {{width:"100%",height:"100%"}}>
