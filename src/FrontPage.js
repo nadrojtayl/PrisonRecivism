@@ -10,12 +10,15 @@ class App extends Component {
 <View style={{ alignItems: "center" }}>
 
     <Text
-      style={{
+      style={{{paddingTop:"60px"}}>
         textAlign: "center",
         fontWeight: "bold",
         fontSize: "60px"
       }}>
+
       MY FUTURE
+      <Text>  </Text>
+      <Text>  </Text>
       </Text>
       <Button onPress={() => {that.props.parent.setState({destination:"SecondPage"})}} title="Example button" />
     <Text
@@ -25,7 +28,7 @@ class App extends Component {
         color:"black"}}>
         </Text>
         <Text
-        style={{justifyContent:"space around"}}>
+        style={{paddingTop:"60px"}}>
       Get to the Next Level: See Other Athletes Schedules
       {'\n'}  </Text>
 
@@ -34,25 +37,22 @@ class App extends Component {
         style = {{flexDirection:"row" ,justifyContent:"space-around",}}>
         <Button onPress={() => {}} title="ice hockey" />
         <Text>  </Text>
+        <Text>  </Text>
+        <Text>  </Text>
         <Button onPress={() => {}} title="football" />
+        <Text>  </Text>
+        <Text>  </Text>
         <Text>  </Text>
         <Button onPress={() => {}} title="lacrosse" />
         <Text>  </Text>
+        <Text>  </Text>
+        <Text>  </Text>
         <Button onPress={() => {}} title="basketball" />
+        <Text>  </Text>
+        <Text>  </Text>
         <Text>  </Text>
         <Button onPress={() => {}} title="baseball" />
       </View>
-
-    <View
-      style = {{flexDirection:"row" ,justifyContent:"space-around", paddingTop: "40px"}}>
-      <Button onPress={() => {}} title="High School" />
-      <Text>  </Text>
-      <Button onPress={() => {}} title="College" />
-      <Text>  </Text>
-      <Button onPress={() => {}} title="Pro" />
-    </View>
-
-
   </View>
 );
 }

@@ -28,12 +28,7 @@ class FrontPage extends Component {
     return (
       <View style={styles.app}>
         <View style={styles.header}>
-          <Image
-            accessibilityLabel="React logo"
-            source={{ uri: logoUri }}
-            resizeMode="contain"
-            style={styles.logo}
-          />
+
           <Text
           style={{
               textAlign: "center",
@@ -41,16 +36,16 @@ class FrontPage extends Component {
               color:"black"}}>
               </Text>
               <Text
-              style={{justifyContent:"space around"}}>
-            Ivy League
+              style={{justifyContent:"space-around"}}>
+
             {'\n'}  </Text>
 
-          <Text style={styles.title}>Front Page</Text>
+          <Text style={styles.title}>High School</Text>
         </View>
 
 
       <View
-      style = {{flexDirection:"row" ,justifyContent:"space-around",}}>
+      style = {{flexDirection:"row" ,justifyContent:"space-around"}}>
       <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "boarding school" />
       <Text>  </Text>
       <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "day school" />
@@ -58,13 +53,41 @@ class FrontPage extends Component {
       <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "public school" />
       </View>
 
-
+  <Text style={styles.title}>College</Text>
       <View
-      style = {{flexDirection:"row" ,justifyContent:"space-around",}}>
+      style = {{flexDirection:"row" ,paddingTop:"10px",}}>
       <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "Ivy League" />
       <Text>  </Text>
       <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "NESCAC" />
       <Text>  </Text>
+        <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "Top universities for hockey" />
+      </View>
+
+<Text style={styles.title}>Juniors</Text>
+<View
+style = {{flexDirection:"row" ,paddingTop:"10px",}}>
+<Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "WHL, OHL, QMJHL" />
+<Text>  </Text>
+<Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "USHL/BCHL" />
+</View>
+
+
+      <Text style={styles.title}>Pro</Text>
+      <View
+      style = {{flexDirection:"row" ,paddingTop:"10px",}}>
+      <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "NHL" />
+      <Text>  </Text>
+      <Text>  </Text>
+      <Text>  </Text>
+      <Text>  </Text>
+      <Text>  </Text>
+      <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "AHL" />
+      <Text>  </Text>
+      <Text>  </Text>
+      <Text>  </Text>
+      <Text>  </Text>
+      <Text>  </Text>
+        <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "KHL, EURO" />
       </View>
       </View>
 
@@ -76,7 +99,7 @@ const styles = StyleSheet.create({
   app: {
     marginHorizontal: "auto",
     maxWidth: 500,
-    backgroundColor:'blue',
+    backgroundColor:'white',
     height:"100%"
   },
   logo: {
