@@ -25,7 +25,7 @@ class App extends Component {
             resizeMode="contain"
             style={styles.logo}
           />
-          <Text style={styles.title}>React Native for Web</Text>
+          <Text style={styles.title}>Reacts Native for Web</Text>
         </View>
         <Text style={styles.text}>
           This is an example of an app built with{" "}
@@ -53,7 +53,8 @@ class App extends Component {
 const styles = StyleSheet.create({
   app: {
     marginHorizontal: "auto",
-    maxWidth: 500
+    maxWidth: 500,
+    backgroundColor:'red'
   },
   logo: {
     height: 80
