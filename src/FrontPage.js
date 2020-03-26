@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Button, Image, Text, View, TextInput } from "react-native";
 
 class App extends Component {
+
   render() {
+      var that= this;
     return (
 
 <View style={{ alignItems: "center" }}>
@@ -15,6 +17,7 @@ class App extends Component {
       }}>
       MY FUTURE
       </Text>
+      <Button onPress={() => {that.props.parent.setState({destination:"SecondPage"})}} title="Example button" />
     <Text
     style={{
         textAlign: "center",
