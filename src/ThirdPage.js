@@ -28,32 +28,34 @@ class FrontPage extends Component {
     return (
       <View style={styles.app}>
         <View style={styles.header}>
-          <Image
-            accessibilityLabel="React logo"
-            source={{ uri: logoUri }}
-            resizeMode="contain"
-            style={styles.logo}
-          />
-          <Text style={styles.title}>Front Page</Text>
+
+          <Text style={styles.title}>High School</Text>
         </View>
-        <Text style={styles.text}>
-          This is an example of an app built with{" "}
-          <WebLink href="https://github.com/facebook/create-react-app">
-            Create React App
-          </WebLink>{" "}
-          and{" "}
-          <WebLink href="https://github.com/necolas/react-native-web">
-            React Native for Web
-          </WebLink>
-        </Text>
-        <Text style={styles.text}>
-          To get started, edit{" "}
-          <WebLink href="https://codesandbox.io/s/q4qymyp2l6/" style={styles.code}>
-            src/App.js
-          </WebLink>
-          .
-        </Text>
-        <Button onPress={() => {that.props.parent.setState({destination:"FirstPage"})}} title="Example button" />
+
+
+
+      <View
+        style = {{flexDirection:"row" ,justifyContent:"space-around",paddingBottom:"30px"}}>
+        <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "boarding school" />
+        <Text>  </Text>
+        <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "public school" />
+        </View>
+
+  <Text style={styles.title}>College</Text>
+        <View
+          style = {{flexDirection:"row" ,justifyContent:"space-around",paddingTop:"20px"}}>
+          <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "Ivy League" />
+          <Text>  </Text>
+          <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "Top Universities for Football" />
+          </View>
+
+          <Text style={styles.title}>Pro</Text>
+                <View
+                  style = {{flexDirection:"row" ,justifyContent:"space-around",paddingTop:"20px"}}>
+                  <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "NFL" />
+                  <Text>  </Text>
+                  <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "XFL" />
+                  </View>
       </View>
     );
   }
@@ -63,7 +65,7 @@ const styles = StyleSheet.create({
   app: {
     marginHorizontal: "auto",
     maxWidth: 500,
-    backgroundColor:'yellow',
+    backgroundColor:'white',
     height:"100%"
   },
   logo: {
