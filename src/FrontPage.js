@@ -6,7 +6,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {FrontPage} from './FrontPage.js'
 
 
 
@@ -34,7 +33,7 @@ class App extends Component {
             resizeMode="contain"
             style={styles.logo}
           />
-          <Text style={styles.title}>Reacts Native for Web</Text>
+          <Text style={styles.title}>Front Page</Text>
         </View>
         <Text style={styles.text}>
           This is an example of an app built with{" "}
