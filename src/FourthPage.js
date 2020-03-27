@@ -28,33 +28,38 @@ class FrontPage extends Component {
     return (
       <View style={styles.app}>
         <View style={styles.header}>
-          <Image
-            accessibilityLabel="React logo"
-            source={{ uri: logoUri }}
-            resizeMode="contain"
-            style={styles.logo}
-          />
+
           <Text style={styles.title}>High School</Text>
         </View>
-        <Text style={styles.text}>
-          This is an example of an app built with{" "}
-          <WebLink href="https://github.com/facebook/create-react-app">
-            Create React App
-          </WebLink>{" "}
-          and{" "}
-          <WebLink href="https://github.com/necolas/react-native-web">
-            React Native for Web
-          </WebLink>
-        </Text>
-        <Text style={styles.text}>
-          To get started, edit{" "}
-          <WebLink href="https://codesandbox.io/s/q4qymyp2l6/" style={styles.code}>
-            src/App.js
-          </WebLink>
-          .
-        </Text>
-        <Button onPress={() => {that.props.parent.setState({destination:"FirstPage"})}} title="Example button" />
+        <View style= {{flexDirection: "row"}}>
+        <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "boarding school" />
+        <Text>  </Text>
+        <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "day school" />
+        <Text>  </Text>
+        <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "public school" />
       </View>
+
+      <Text style={styles.title}>College</Text>
+          <View
+          style = {{flexDirection:"row" ,paddingTop:"10px",}}>
+          <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "Ivy League" />
+          <Text>  </Text>
+          <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "NESCAC" />
+          <Text>  </Text>
+            <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "Top universities for lacrosse" />
+          </View>
+
+          <Text style={styles.title}>Pro</Text>
+                <View
+                  style = {{flexDirection:"row" ,justifyContent:"space-around",paddingTop:"20px"}}>
+                  <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "PLL" />
+                  <Text>  </Text>
+                  <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "MLL" />
+                    <Text>  </Text>
+                    <Button onPress={() => {that.props.parent.setState({destination:"FrontPage"})}} title= "NLL" />
+                  </View>
+      </View>
+
     );
   }
 }

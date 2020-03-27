@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, Image, Text, View, TextInput } from "react-native";
-
+import {Panels, DropdownContent} from "./VACComponentLibrary/Components.js"; 
 class App extends Component {
 
   render() {
@@ -46,12 +46,14 @@ class App extends Component {
         <Text>  </Text>
         <Text>  </Text>
         <Text>  </Text>
+
         <Button onPress={() => {that.props.parent.setState({destination:"FifthPage"})}} title="basketball" />
         <Text>  </Text>
         <Text>  </Text>
         <Text>  </Text>
         <Button onPress={() => {that.props.parent.setState({destination:"SixthPage"})}} title="baseball" />
       </View>
+      
   </View>
 );
 }
