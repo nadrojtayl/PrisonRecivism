@@ -34,7 +34,7 @@ class FrontPage extends Component {
             resizeMode="contain"
             style={styles.logo}
           />
-          <Text style={styles.title}>Front Page</Text>
+          <Text style={styles.title}>High School</Text>
         </View>
         <Text style={styles.text}>
           This is an example of an app built with{" "}

@@ -45,14 +45,19 @@ class App extends Component {
         <ThirdPage parent = {this}></ThirdPage></View>)
      }
 
-     if(that.state.destination === "FifthPage"){
+     if(that.state.destination === "FourthPage"){
       return (<View style = {{width:"100%",height:"100%"}}>
-       <FifthPage parent = {this}></FifthPage></View>)
+       <FourthPage parent = {this}></FourthPage></View>)
      }
 
      if(that.state.destination === "FifthPage"){
       return (<View style = {{width:"100%",height:"100%"}}>
        <FifthPage parent = {this}></FifthPage></View>)
+     }
+
+     if(that.state.destination === "SixthPage"){
+      return (<View style = {{width:"100%",height:"100%"}}>
+       <SixthPage parent = {this}></SixthPage></View>)
      }
   }
 }
