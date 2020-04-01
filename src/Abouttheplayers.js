@@ -40,49 +40,17 @@ class FrontPage extends Component {
 
             {'\n'}  </Text>
 
-          <Text style={styles.title}>High School</Text>
+          <Text style={styles.title}>Lawrenceville School: Kenneth Baek</Text>
+  <Text style={styles.fontSize}>Kenneth opiniated: busiest part of this lifestyle</Text>
+  <Text style={styles.fontSize}>Kenneth: School</Text>
+  <Text>  </Text>
+  <Text style={styles.fontSize}>Daily Schedule of Kenneth with practices and classes</Text>
+    <Text>  </Text>
+  <Text style={styles.fontSize}>Daily Schedule of Kenneth on Gameday</Text>
         </View>
 
 
-      <View
-      style = {{flexDirection:"row" ,justifyContent:"space-around"}}>
-      <Button onPress={() => {that.props.parent.setState({destination:"Boardingschool"})}} title= "boarding school" />
-      <Text>  </Text>
-      <Button onPress={() => {that.props.parent.setState({destination:"DayorPublic"})}} title= "day or public school" />
-      </View>
 
-  <Text style={styles.title}>College</Text>
-      <View
-      style = {{flexDirection:"row" ,paddingTop:"10px",}}>
-      <Button onPress={() => {that.props.parent.setState({destination:"IvyLeague"})}} title= "Ivy League" />
-      <Text>  </Text>
-      <Button onPress={() => {that.props.parent.setState({destination:"Nescac"})}} title= "NESCAC" />
-      <Text>  </Text>
-        <Button onPress={() => {that.props.parent.setState({destination:"TopUniversitiesforHockey"})}} title= "Top universities for hockey" />
-      </View>
-
-<Text style={styles.title}>Juniors</Text>
-<View
-style = {{flexDirection:"row" ,paddingTop:"10px",}}>
-<Button onPress={() => {that.props.parent.setState({destination:"CanadienHockeyLeague"})}} title= "WHL, OHL, QMJHL" />
-<Text>  </Text>
-<Button onPress={() => {that.props.parent.setState({destination:"UshlandBchl"})}} title= "USHL/BCHL" />
-<Text>  </Text>
-<Button onPress={() => {that.props.parent.setState({destination:"NationalTeamDevelopmentProgram"})}} title= "NTDP" />
-</View>
-
-
-      <Text style={styles.title}>Pro</Text>
-      <View
-      style = {{flexDirection:"row" ,paddingTop:"10px",}}>
-      <Button onPress={() => {that.props.parent.setState({destination:"Americanpro"})}} title= "NHL/AHL" />
-      <Text>  </Text>
-      <Text>  </Text>
-      <Text>  </Text>
-      <Text>  </Text>
-      <Text>  </Text>
-        <Button onPress={() => {that.props.parent.setState({destination:"Europepro"})}} title= "KHL, EURO" />
-      </View>
       </View>
 
     );

@@ -46,14 +46,20 @@ class App extends Component {
         <Text>  </Text>
         <Text>  </Text>
         <Text>  </Text>
-
         <Button onPress={() => {that.props.parent.setState({destination:"FifthPage"})}} title="basketball" />
         <Text>  </Text>
         <Text>  </Text>
         <Text>  </Text>
         <Button onPress={() => {that.props.parent.setState({destination:"SixthPage"})}} title="baseball" />
       </View>
-      
+
+      <View
+        style = {{flexDirection:"row" ,paddingTop:"20px",}}>
+        <Button onPress={() => {that.props.parent.setState({destination:"Abouttheplayers" })}} title="About the players" />
+        <Text>  </Text>
+        <Text>  </Text>
+        <Text>  </Text>
+  </View>
   </View>
 );
 }
