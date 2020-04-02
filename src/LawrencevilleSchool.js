@@ -40,18 +40,7 @@ class FrontPage extends Component {
 
             {'\n'}  </Text>
 
-          <Text style={styles.title}></Text>
-
-        </View>
-        <View
-        style = {{flexDirection:"row" ,paddingTop:"10px",}}>
-        <Button onPress={() => {that.props.parent.setState({destination:"LawrencevilleSchool"})}} title= "Lawrenceville School: Lawrenceville, New Jersey" />
-        <Text>  </Text>
-        <Text>  </Text>
-        <Text>  </Text>
-        <Text>  </Text>
-        <Text>  </Text>
-          <Button onPress={() => {that.props.parent.setState({destination:"Shattucks"})}} title= "Shattucks St. Mary: Faribault, Minnesota" />
+          <Text style={styles.title}>Lawrenceville School: Kenneth Baek Day in the Life</Text>
         </View>
 
 

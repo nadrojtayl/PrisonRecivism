@@ -41,7 +41,6 @@ class FrontPage extends Component {
             {'\n'}  </Text>
 
           <Text style={styles.title}>Lawrenceville School: Kenneth Baek</Text>
-  <Text style={styles.fontSize}>Kenneth opiniated: busiest part of this lifestyle</Text>
   <Text style={styles.fontSize}>Kenneth: School</Text>
   <Text>  </Text>
   <Text style={styles.fontSize}>Daily Schedule of Kenneth with practices and classes</Text>

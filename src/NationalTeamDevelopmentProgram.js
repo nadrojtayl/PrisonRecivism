@@ -51,6 +51,7 @@ class FrontPage extends Component {
     <Text style={styles.fontSize}> Getting back from a road trop or international play: gets the day off from training</Text>
       <Text style={styles.title}>Games/Opponents</Text>
       <Text style={styles.fontSize}> Approx 60+ games </Text>
+      <Text style={styles.fontSize}> Competition:  u17 team competes in USHL and three international events </Text>
   <Text style={styles.fontSize}></Text>
     <Text>  </Text>
   <Text style={styles.fontSize}></Text>
