@@ -41,23 +41,18 @@ class FrontPage extends Component {
             {'\n'}  </Text>
 
           <Text style={styles.title}>Lawrenceville School: Kenneth Baek Day in the Life</Text>
-          <Text style={styles.title}>Shattucks St.Mary: Andre Gasseau Day in the Life</Text>
-          <Text style={styles.fontSize}>Morning routine: 7:30 am wake up, shower</Text>
-            <Text style={styles.fontSize}>Breakfast: 7:45 am</Text>
-              <Text style={styles.fontSize}>Classes: 8:00 - 10:25 am</Text>
-            <Text style={styles.fontSize}>Practice: 10:45 am - 12:00 pm</Text>
-            <Text style={styles.fontSize}>12:20 - 12:45 pm</Text>
-                <Text style={styles.fontSize}>Back to classes: 12:50 pm</Text>
-                <Text style={styles.fontSize}>Classes and downtime till 4pm</Text>
-                <Text style={styles.fontSize}>After 4pm to 5:30, workout or skills sessions</Text>
-                  <Text style={styles.fontSize}>Dinner after 5:30 pm to 6:15 pm</Text>
-                  <Text style={styles.fontSize}>Rest/Free Time till 8pm </Text>
-                  <Text style={styles.fontSize}>Study Hall in Dorms: 8-9:30 pm </Text>
-                  <Text style={styles.fontSize}>Free Time till 10:30 pm</Text>
+          <Text style={styles.fontSize}>Morning routine: 7:00 am wake up Mon and Sat, 8:00 am Tue, Wed, Thurs,Fri</Text>
+          <Text style={styles.fontSize}>Breakfast: 7:30 am Mon and Sat, 8:30 am Tue, Wed, Thurs, Fri</Text>
+              <Text style={styles.fontSize}>Classes: 8:00 am - 3:00 pm Mon, 9:00 am - 3:30 pm Tue, Thurs, Fri </Text>
+                            <Text style={styles.fontSize}>Classes: 9:30 am - 12:30 pm wed, 8:30 am - 11:30 am sat</Text>
+              <Text style={styles.fontSize}>Practice: varies with 3:30 pm, 5:30 pm, and 8:00 pm</Text>
+                <Text style={styles.fontSize}>Study Hall: 8:15 pm - 10:15 pm</Text>
+                <Text style={styles.fontSize}>Workouts switch times depending on practice time</Text>
+                  <Text style={styles.fontSize}>Lights out: 11: 15 pm</Text>
 
                   <Text style={styles.title}>Games/Opponents</Text>
-                  <Text style={styles.fontSize}> Approx 50+ games </Text>
-                    <Text style={styles.fontSize}> Competition: Top Clubs in Nation, part of MSHSL- Eastern Minnesota Athletic Conference </Text>
+                  <Text style={styles.fontSize}> Approx 35 - 40 games </Text>
+                    <Text style={styles.fontSize}> Competition: Mid atlantic League, New england prep schools </Text>
         </View>
 
 
