@@ -7,7 +7,7 @@ import FourthPage from './FourthPage.js'
 import FifthPage from './FifthPage.js'
 import SixthPage from './SixthPage.js'
 import Boardingschool from './Boardingschool.js'
-import DayorPublic from './DayorPublic.js'
+import Club from './Club.js'
 import IvyLeague from './IvyLeague.js'
 import Nescac from './Nescac.js'
 import TopUniversitiesforHockey from './TopUniversitiesforHockey.js'
@@ -78,9 +78,9 @@ class App extends Component {
        <Boardingschool parent = {this}></Boardingschool></View>)
      }
 
-     if(that.state.destination === "DayorPublic"){
+     if(that.state.destination === "Club"){
       return (<View style = {{width:"100%",height:"100%"}}>
-       <DayorPublic parent = {this}></DayorPublic></View>)
+       <Club parent = {this}></Club></View>)
      }
 
      if(that.state.destination === "IvyLeague"){

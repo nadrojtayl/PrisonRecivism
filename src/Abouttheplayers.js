@@ -40,12 +40,35 @@ class FrontPage extends Component {
 
             {'\n'}  </Text>
 
-          <Text style={styles.title}>Lawrenceville School: Kenneth Baek</Text>
-  <Text style={styles.fontSize}>Kenneth: School</Text>
-  <Text>  </Text>
-  <Text style={styles.fontSize}>Daily Schedule of Kenneth with practices and classes</Text>
-    <Text>  </Text>
-  <Text style={styles.fontSize}>Daily Schedule of Kenneth on Gameday</Text>
+          <Text style={styles.title}>Aidan Hreschuck (u17 NTDP 2019-2020)</Text>
+  <Text style={styles.fontSize}>Aidan Hreshuck: 2003 born defenceman</Text>
+  <Text style={styles.fontSize}>Hometown: Long Beach, California</Text>
+  <Text style={styles.fontSize}>Club Team: LA Jr. Kings</Text>
+  <Text style={styles.fontSize}>College commitment: Boston College</Text>
+  <Text style={styles.fontSize}>2018 WHL Draft pick: Prince George Cougars </Text>
+
+    <Text style={styles.title}>Andre Gasseau (Shattucks St. Mary u16 2019-2020)</Text>
+    <Text style={styles.fontSize}>Andre Gasseau: 2003 born forward</Text>
+    <Text style={styles.fontSize}>Hometown: Los Angeles, California</Text>
+    <Text style={styles.fontSize} >Club Team: LA Jr. Kings</Text>
+        <Text style={styles.fontSize}>2019 USHL Draft Pick: Fargo Force</Text>
+
+        <Text style={styles.title}>Sunho Park Deerfield Academy (2010-2014) Middlebury COllege (2014-2018)</Text>
+<Text style={styles.fontSize}>Sunho Park: 1994 born Defenceman</Text>
+        <Text style={styles.fontSize}>Hometown: Seoul South Korea</Text>
+
+        <Text style={styles.title}>Alexander Bonrouhi (LA Jr. Kings u16 2019-20) (Northfield Mount Hermon 2020-2022)</Text>
+<Text style={styles.fontSize}>Alexander Bonrouhi: 2003 born Goalie</Text>
+        <Text style={styles.fontSize}>Hometown: Marina Del Ray, California</Text>
+              <Text style={styles.fontSize}>2018 WHL Draft Pick: Tri - City Americans</Text>
+
+              <Text style={styles.title}> Kenneth Baek (Lawrenceville School)</Text>
+        <Text style={styles.fontSize}>Kenneth Baek: 2003 born defenceman</Text>
+              <Text style={styles.fontSize}>Hometown: San Diego, California</Text>
+                  <Text style={styles.fontSize} >Club Team: San Diego Jr. Gulls, LA Jr. Kings</Text>
+
+
+
         </View>
 
 

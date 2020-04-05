@@ -40,7 +40,22 @@ class FrontPage extends Component {
 
             {'\n'}  </Text>
 
-          <Text style={styles.title}>High School</Text>
+          <Text style={styles.title}>LA Jr. King u16 Alex Bonrouhi Day in the Life</Text>
+            <Text style={styles.title}>Regular week</Text>
+              <Text style={styles.fontSize}>Mon:7:45 - 8:45 pm Midget Clinic</Text>
+                <Text style={styles.fontSize}>Tue: 5:10 - 6:10 pm Clinic, 6:20 - 7:20 pm Practice </Text>
+            <Text style={styles.fontSize}>Wed: 8:30 - 9:30 am Goalie Lesson, 6:30 - 7:30 pm Practice, 7:45 - 8:45 pm practice </Text>
+              <Text style={styles.fontSize}>Thurs: 6:30 - 7:30 pm Practice</Text>
+                <Text style={styles.fontSize}>Sat or Sun: 8:30 am - 9:30 am Goalie Lesson</Text>
+                <Text style={styles.title}>Game week</Text>
+                  <Text style={styles.fontSize}>Mon:7:45 - 8:45 pm Midget Clinic</Text>
+                    <Text style={styles.fontSize}>Tue: 5:10 - 6:10 pm Clinic, 6:20 - 7:20 pm Practice </Text>
+                <Text style={styles.fontSize}>Wed or Thurs: Travel Day </Text>
+                  <Text style={styles.fontSize}>Fri: 2 games</Text>
+                    <Text style={styles.fontSize}>Sat: 2 games</Text>
+                      <Text style={styles.fontSize}>Sun: 1 game, travel home</Text>
+                      <Text style={styles.fontSize}>Opponents: Top Clubs in Nation, Tier 1 Elite Hockey League</Text>
+                        <Text style={styles.fontSize}>Games Played: 50+ games</Text>
         </View>
 
 

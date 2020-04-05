@@ -48,7 +48,7 @@ class FrontPage extends Component {
       style = {{flexDirection:"row" ,justifyContent:"space-around"}}>
       <Button onPress={() => {that.props.parent.setState({destination:"Boardingschool"})}} title= "boarding school" />
       <Text>  </Text>
-      <Button onPress={() => {that.props.parent.setState({destination:"DayorPublic"})}} title= "day or public school" />
+      <Button onPress={() => {that.props.parent.setState({destination:"Club"})}} title= "Club" />
       </View>
 
   <Text style={styles.title}>College</Text>

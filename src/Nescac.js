@@ -40,8 +40,25 @@ class FrontPage extends Component {
 
             {'\n'}  </Text>
 
-          <Text style={styles.title}>High School</Text>
-        </View>
+          <Text style={styles.title}>Middlebury College: Sunho Park/Insight of a Typical Gameday</Text>
+            <Text style={styles.fontSize}>Games typically Friday night 7pm and Saturday afternoon 3 or 4 pm</Text>
+            <Text style={styles.fontSize}>Friday: classes done by 4:15 pm</Text>
+              <Text style={styles.fontSize}>Scratches skate when they don't have class during the day</Text>
+              <Text style={styles.fontSize}>Team meal 4 pm</Text>
+                    <Text style={styles.fontSize}>Head to rink 5pm</Text>
+                      <Text style={styles.fontSize}>Pre game meeting</Text>
+                      <Text style={styles.fontSize}>Puck drop 7pm</Text>
+                                  <Text style={styles.fontSize}>Home game: dinner with family members, coaches, and player in the lounge </Text>
+                                        <Text>  </Text>
+            <Text style={styles.fontSize}>Saturday:meeting 8 or 9am</Text>
+                  <Text style={styles.fontSize}>Stretch and Video/ Scratches organize skate to get sweat in</Text>
+            <Text style={styles.fontSize}>Team Lunch 3 hours prior game</Text>
+                   <Text style={styles.fontSize}>Pregame, then puck drop at 3 or 4 pm</Text>
+  <Text style={styles.title}>Park's weekly breakdown</Text>
+   <Text style={styles.fontSize}>Practice Mon-Thurs</Text>
+    <Text style={styles.fontSize}>Lift/ Off ice couple times a week</Text>
+
+         </View>
 
 
 
