@@ -24,18 +24,38 @@ class Options extends Component{
     super(props);
     this.state = {
       options:[
-        "Housing","HealthCare","Clothing","Mental Health","Legal Assistance", "Pro Bono Lawyers", "Cell Phones"
+        {title:"Housing",img:"housing"},
+        {title:"HealthCare",img:"health"},
+        {title:"Clothing",img:"clothing"},
+        {title:"Mental Health",img:"mentalhealth"},
+        {title:"Legal Assitance",img:"legal"},
+        {title:"Cell Phone",img:"cell"}
       ]
     }
   }
   render(){
     var that = this;
     return (
-      <View style = {{height:"100%",width:"100%", backgroundColor:'green'}}>
-        {that.state.options.map(function(item){
-          return (<Text>{item}</Text>)
-        })
-        }
+      <View style = {{height:"100%",width:"100%", backgroundColor:'white'}}>
+          
+            {
+              that.state.options.map(function(item){
+                return (
+                  <View style = {{height: "17%", width:"100%"}}>
+                    <Text style = {{position:'absolute',top:"30%", backgroundColor:'white', left:"10%"}}>{item.title}</Text>
+                    <Image
+                     style={{width:"500px",height:"500px", zIndex: - 500, position:'absolute', height:"120%", width: "120%"}}
+               
+                    source={{
+                      uri: 'https://young-beach-99067.herokuapp.com/' + item.img + '.jpg',
+                    }}>
+                    </Image>
+                  </View>
+
+                )
+              })
+
+            }
       </View>
       )
   }
