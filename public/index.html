@@ -7,7 +7,8 @@
           /* These styles disable body scrolling if you are using <ScrollView> */
           body { overflow: hidden; }
           /* These styles make the root element full-height */
-          #root { display:flex; height:100%; }
+          #root {border: 1px solid gray; position: absolute; overflow: hidden; top: 15.2%; left:25.3%; height:516px; border-radius: 3px; width:309px; }
+          #iphone_img{position: absolute; overflow: hidden; top: 2%; left:20%; height:800px; z-index: -100; }
         </style>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -35,6 +36,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <img id = "iphone_img" src = "https://www.jing.fm/clipimg/detail/170-1702644_phone-transparent-png-pictures-transparent-iphone-cut-out.png"></img>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
